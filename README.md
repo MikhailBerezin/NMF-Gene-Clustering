@@ -29,12 +29,13 @@ Installation
 2.	git clone https://github.com/MikhailBerezin/NMF-Gene-Clustering 
 3.	Open MATLAB and navigate to the project folder.
 4.	Ensure you have the required toolboxes (MATLAB Statistics and Machine Learning Toolbox).
+   
 Usage
-1.	Run the function in MATLAB: 
-2.	nnmf_rna
-3.	A file selection dialog will appear. Select the Excel file containing gene expression data.
-4.	Enter the number of clusters when prompted (default: 2).
-5.	The function performs NMF decomposition and generates:	
+1.	Run the function in MATLAB: nnmf_rna
+2.	A file selection dialog will appear. Select the Excel file containing gene expression data.
+3.	Enter the number of clusters when prompted (default: 2).
+4.	The function performs NMF decomposition and generates:
+   
   o	Heatmaps for Basis Matrix W (Gene Clusters)
 
   o	Heatmaps for Loading Matrix H (Mouse Clusters)
@@ -42,6 +43,7 @@ Usage
   o	Bar plots showing treatment association with latent factors
   
   o	Top 10 genes per cluster with the highest loading coefficients
+  
 Outputs
 
   •	Basis Matrix (W): Identifies gene clusters with similar expression patterns.
@@ -53,6 +55,7 @@ Outputs
   •	Top Genes per Cluster: Displays the top 10 genes in each cluster.
   
 Interpretation
+
   •	Genes in the same cluster may indicate co-regulated pathways.
   
   •	Mice with similar loading patterns might share transcriptional responses.
@@ -60,12 +63,15 @@ Interpretation
   •	Pathway enrichment analysis can be performed on clusters to uncover biological relevance (e.g., DNA repair, apoptosis, cell cycle regulation).
   
 Dependencies
+
   •	MATLAB (R2021a or newer recommended)
   
   •	MATLAB Statistics and Machine Learning Toolbox
   
 Citation
+
 If you use this function in your research, please cite: Berezin Lab, Washington University in St. Louis, 2024
+
 License
 This project is licensed under the BSD 2-Clause License.
 ________________________________________
