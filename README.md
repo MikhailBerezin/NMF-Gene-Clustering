@@ -32,8 +32,7 @@ Usage
 2.	nnmf_rna
 3.	A file selection dialog will appear. Select the Excel file containing gene expression data.
 4.	Enter the number of clusters when prompted (default: 2).
-5.	The function performs NMF decomposition and generates:
-6.	
+5.	The function performs NMF decomposition and generates:	
   o	Heatmaps for Basis Matrix W (Gene Clusters)
 
   o	Heatmaps for Loading Matrix H (Mouse Clusters)
