@@ -16,7 +16,7 @@ Input Requirements
 
   •	The input data should be a matrix of samples (rows) by genes (columns).
   
-  •	The function requires an Excel file (e.g., drg_oxa_89_genes.xlsx) where: 
+  •	The function requires an Excel file (e.g., DRG 91 genes FDR 0.05 FC more or equal 2 sorted.xlsx) where: 
   
     o	The first row contains gene names.
     
@@ -75,5 +75,5 @@ If you use this function in your research, please cite: Berezin Lab, Washington 
 License
 This project is licensed under the BSD 2-Clause License.
 ________________________________________
-For any questions or contributions, feel free to create an issue or submit a pull request!
+For any questions or contributions, feel free to create an issue or submit a pull request
 
