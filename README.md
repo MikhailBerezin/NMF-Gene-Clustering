@@ -42,7 +42,7 @@ Dependencies
 Citation
 If you use this function in your research, please cite: Berezin Lab, Washington University in St. Louis, 2024
 License
-This project is licensed under the MIT License.
+This project is licensed under the BSD 2-Clause License.
 ________________________________________
 For any questions or contributions, feel free to create an issue or submit a pull request!
 
