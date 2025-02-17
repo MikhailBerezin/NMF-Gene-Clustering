@@ -3,9 +3,13 @@ Non-Negative Matrix Factorization for Gene Expression Clustering
 Berezin Lab, Washington University in St. Louis, 2024
 Overview
 This MATLAB function applies Non-Negative Matrix Factorization (NMF) to gene expression data to identify clusters or latent factors that reveal how groups of genes are commonly regulated in response to oxaliplatin treatment. The function enables:
+
   •	Identification of Gene Clusters (Basis Matrix W): Groups of genes that are co-expressed or have similar mean expression levels across different samples.
+  
   •	Identification of Mouse Clusters (Loading Matrix H): How each mouse aligns with gene clusters, distinguishing between treatment and control groups.
+  
   •	Interpretation of Biological Mechanisms: The identified gene clusters can be analyzed using pathway enrichment or Gene Ontology (GO) analysis to uncover biological functions affected by oxaliplatin.
+  
 Input Requirements
   •	The input data should be a matrix of samples (rows) by genes (columns).
   •	The function requires an Excel file (e.g., drg_oxa_89_genes.xlsx) where: 
